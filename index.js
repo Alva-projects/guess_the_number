@@ -3,11 +3,21 @@ let guess = null;
 
 while (guess !== target) {
     console.log(`Guess: ${guess}`);
-    guess = parseFloat(prompt('Take a guess'));
+    guess = parseFloat(prompt(`What number am I thinking of?`));
 }
 if (guess === target) {
-    console.log(`Congratulations! You managed to guess the correct number!`)
+    console.log(`Congratulations! You managed to guess the correct number!`);
+    else if (guess > target){
+        console.log (`Lower`);
+    }
 }
+
+/*if else {
+    console.log('Wrong');
+}
+
+
+
 
 /*
 Target: ${target}.
@@ -20,7 +30,6 @@ console.log(target);
 /*
     if guess = unfedined("Please have a guess");
     if guess = target
-    if guess > target; prompt ('Guess lower!')
     if guess <  target; prompt('Guess higher!')
     while guess = null
     console.log('You guessed the right number!')
