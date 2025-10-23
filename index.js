@@ -1,10 +1,10 @@
 const target = Math.floor(Math.random()*10+1); 
-console.log(target);
+let guess = null;
 
-let guess;
-let running = true;
-/*
-while (guess !== target)
+while (guess !== target) {
+    console.log(`Target: ${target}. Guess: ${guess}`);
+    guess = parseFloat(prompt("Guess"));
+}
 console.log('Incorrect');
 if (guess === target)
 console.log('Correct');
