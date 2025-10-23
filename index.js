@@ -4,7 +4,10 @@ console.log(target);
 let guess;
 let running = true;
 /*
-while guess !== target
+while (guess !== target)
+console.log('Incorrect');
+if (guess === target)
+console.log('Correct');
 let guess = null;
 console.log(target);
 
