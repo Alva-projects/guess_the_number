@@ -8,10 +8,11 @@ while (guess !== target) {
 if (guess === target) {
     console.log(`Congratulations! You managed to guess the correct number!`);
 }   else if (guess > target){
-        console.log (`Lower`);
-    }
+    guess = parseFloat(prompt(`Lower`));
+    
+}
     else if (guess < target) {
-        console.log (`Higher`);
+    guess = parseFloat(prompt(`Lower`));
     }
 
 
