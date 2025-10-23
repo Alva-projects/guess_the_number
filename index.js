@@ -10,9 +10,10 @@ if (guess === target) {
 }   else if (guess > target){
         console.log (`Lower`);
     }
-    else (guess < target) {
+    else if (guess < target) {
         console.log (`Higher`);
-}
+    }
+
 
 
 /*if else {
