@@ -2,6 +2,7 @@ const target = Math.floor(Math.random()*10+1);
 console.log(target);
 
 let guess;
+let running = true;
 /*
 
 let guess = null;
