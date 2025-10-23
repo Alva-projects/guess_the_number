@@ -2,11 +2,15 @@ const target = Math.floor(Math.random()*10+1);
 let guess = null;
 
 while (guess !== target) {
-    console.log(`Target: ${target}. Guess: ${guess}`);
-    guess = parseFloat(prompt("Take a guess"));
+    console.log(`Guess: ${guess}`);
+    guess = parseFloat(prompt('Take a guess'));
+}
+if (guess === target) {
+    console.log(`Congratulations! You managed to guess the correct number!`)
 }
 
 /*
+Target: ${target}.
 console.log('Incorrect');
 if (guess === target)
 console.log('Correct');
