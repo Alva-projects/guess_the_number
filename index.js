@@ -7,10 +7,13 @@ while (guess !== target) {
 }
 if (guess === target) {
     console.log(`Congratulations! You managed to guess the correct number!`);
-    else if (guess > target){
+}   else if (guess > target){
         console.log (`Lower`);
     }
+    else (guess < target) {
+        console.log (`Higher`);
 }
+
 
 /*if else {
     console.log('Wrong');
