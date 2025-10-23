@@ -3,8 +3,10 @@ let guess = null;
 
 while (guess !== target) {
     console.log(`Target: ${target}. Guess: ${guess}`);
-    guess = parseFloat(prompt("Guess"));
+    guess = parseFloat(prompt("Take a guess"));
 }
+
+/*
 console.log('Incorrect');
 if (guess === target)
 console.log('Correct');
