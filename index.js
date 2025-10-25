@@ -5,24 +5,15 @@ while (guess !== target) {
     console.log(`Guess: ${guess}`);
     guess = parseFloat(prompt(`What number am I thinking of?`));
 }
-if (guess === target) {
-    console.log(`Congratulations! You managed to guess the correct number!`);
-}   else if (guess > target){
-    guess = parseFloat(prompt(`Lower`));
+if (guess > target) {
+guess = parseFloat(prompt(`Lower`));
+} else if {
+parseFloat(prompt(`Lower`));
+else {
+    console.log(`Congratulations! You managed to guess the correct number!`); 
+}
+}
     
-}
-    else if (guess < target) {
-    guess = parseFloat(prompt(`Lower`));
-    }
-
-
-
-/*if else {
-    console.log('Wrong');
-}
-
-
-
 
 /*
 Target: ${target}.
