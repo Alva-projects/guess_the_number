@@ -1,3 +1,4 @@
+//This is my random number guessing game between 1-10
 const target = Math.floor(Math.random()*10+1); 
 let guess = null;
 
